@@ -1,8 +1,7 @@
 {
-  "homepage": "http://Bowman1410.github.io/Portfolio",
   "name": "portfolio",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -38,5 +37,17 @@
     "postcss": "^8.4.32",
     "tailwindcss": "^3.3.6",
     "vite": "^5.0.0"
+  },
+  "homepage": "https://Bowman1410.github.io/Portfolio",
+  "main": "index.js", 
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bowman1410/Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bowman1410/Portfolio/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
