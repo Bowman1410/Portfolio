@@ -72,7 +72,7 @@ import {
       icon: backend,
     },
     {
-      title: "Python",
+      title: "Computer Vision",
       icon: creator,
     },
   ];
