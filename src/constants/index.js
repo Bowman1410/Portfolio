@@ -40,6 +40,7 @@ import {
     jupyter,
     aws,
     githublogo,
+    screenshot
   } from "../assets";
   
   export const navLinks = [
@@ -257,25 +258,25 @@ import {
       source_code_link: "https://github.com/Bowman1410/ASL_Alphabet_Recognition",
     },
     {
-      name: "Trip Guide",
+      name: "Football CV Analysis",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A complete Computer Vision project that analyzes a players speed, team and location as well as team possession.",
       tags: [
         {
-          name: "nextjs",
+          name: "OpenCV",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "YOLO",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Python",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: screenshot,
+      source_code_link: "https://github.com/Bowman1410/football_analysis_final",
     },
   ];
   

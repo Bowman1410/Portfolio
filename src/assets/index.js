@@ -46,8 +46,10 @@ import customer_churn from "./customer_churn.png";
 import asl from "./asl.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import screenshot from "./screenshot.png";
 
 export {
+  screenshot,
   asl, 
   eduvos1,
   pd,
