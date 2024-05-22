@@ -15,7 +15,7 @@ const Hero = () => {
         <div>
         <h1 className={`${styles.heroHeadText} text-white`}>Hi, my name's <span className='text-[#915eff]'>Iain</span></h1>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I develop Data Solutions to fully embrace your businesses potential
+          My neural network runs on developing data science solutions
         </p>
         </div>
       </div>

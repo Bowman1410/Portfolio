@@ -48,7 +48,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a skilled Data Scientist with experience in Python ( and it's respected libraries ), 
-        Machine Learning, Data Manipulation, Analysis and Visualization. I am a quick learner and I collaborate closely
+        Machine Learning, Data Analysis and Visualization. I am a quick learner and I collaborate closely
         with teams to create efficient, scalable and easy-to-follow solutions that solve real-world problems.
       </motion.p>
 

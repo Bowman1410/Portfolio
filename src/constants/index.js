@@ -1,6 +1,8 @@
 /* change anything on the webpage with one file*/
 import {
     mobile,
+    pd,
+    eduvos1,
     backend,
     creator,
     web,
@@ -26,6 +28,9 @@ import {
     starbucks,
     tesla,
     shopify,
+    wbhs,
+    customer_churn,
+    asl,
     carrent,
     jobit,
     tripguide,
@@ -44,7 +49,7 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Education",
     },
     {
       id: "contact",
@@ -54,11 +59,11 @@ import {
   
   const services = [
     {
-      title: "Data Visualization",
+      title: "Machine Learning",
       icon: web,
     },
     {
-      title: "Data Manipulation",
+      title: "Data Visualization",
       icon: mobile,
     },
     {
@@ -66,7 +71,7 @@ import {
       icon: backend,
     },
     {
-      title: "Python Developer",
+      title: "Python",
       icon: creator,
     },
   ];
@@ -128,42 +133,42 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "High School",
+      company_name: "Westville Boys' High School",
+      icon: wbhs,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Matriculated 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I acquired skills on leadership and teamwork.",
+        "I developed the necessary discipline and hard work to attain desired outcomes",
+        "Proficiency in critical thinking was a key skill learned.",
+        "One of the paramount skills I gained during my high school tenure was a comprehensive understanding of problem-solving methodologies and approaches.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "BSc Information Technology (Data Science)",
+      company_name: "Eduvos",
+      icon: eduvos1,
+      iconBg: "#E6DEDD",
+      date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Learned an array of invaluable skills centered around the field of Data Science.",
+        "Developed core mathematical concepts such as Linear Algebra, Calculus, Statistics and Probability.",
+        "Increased my leadership skills by taking part in national competitions.",
+        "Gained insight about the field from industry experts.",
+      ],
+    },
+    {
+      title: "Machine Learning",
+      company_name: "Pierian Data - Udemy",
+      icon: pd,
+      iconBg: "#E6DEDD",
+      date: "Dec 2023 - March 2024",
+      points: [
+        "Exploratory Data Analysis tools such as Numpy & Pandas.",
+        "Data Visualization techniques using tools such as Matplotlib & Seaborn.",
+        "Supervised and Unsupervised Machine learning models such as Tree Based Methods, Linear Regression,K-Means Clustering, etc...",
+        "Developed an understanding of the mathematics behind each machine learning model.",
       ],
     },
     {
@@ -210,46 +215,46 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Customer Churn Analysis",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Notebook that critically evaluates and explains the data at hand using visualization. The data is then manipulated and evaluated to best show the reasons for customers leaving the service.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "pandas",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "matplotlib",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: customer_churn,
+      source_code_link: "https://github.com/Bowman1410/Predictive-Customer-Churn-Analysis.git",
     },
     {
-      name: "Job IT",
+      name: "ASL Alphabet Recognition",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A machine learning model that uses Convolutional Neural Networks to recognize American Sign Language (ASL) alphabets using TensorFlow and Keras.",
       tags: [
         {
-          name: "react",
+          name: "TensorFlow",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "opencv",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CNN",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: asl,
+      source_code_link: "https://github.com/Bowman1410/ASL_Alphabet_Recognition",
     },
     {
       name: "Trip Guide",

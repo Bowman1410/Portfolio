@@ -37,12 +37,20 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import wbhs from "./company/wbhs.jpg";
+import eduvos1 from "./company/eduvos1.jpg";
+import pd from "./company/pd.png";
 
 import carrent from "./carrent.png";
+import customer_churn from "./customer_churn.png";
+import asl from "./asl.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  asl, 
+  eduvos1,
+  pd,
   pandas,
   numpyicon,
   matplotlib,
@@ -79,7 +87,9 @@ export {
   meta,
   shopify,
   starbucks,
+  wbhs,
   tesla,
+  customer_churn,
   carrent,
   jobit,
   tripguide,
