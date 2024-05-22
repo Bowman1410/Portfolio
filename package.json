@@ -38,7 +38,7 @@
     "tailwindcss": "^3.3.6",
     "vite": "^5.0.0"
   },
-  "homepage": "https://Bowman1410.github.io/Portfolio/",
+  "homepage": "https://Bowman1410.github.io/Portfolio",
   "main": "index.js", 
   "repository": {
     "type": "git",
