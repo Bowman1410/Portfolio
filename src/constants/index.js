@@ -40,7 +40,8 @@ import {
     jupyter,
     aws,
     githublogo,
-    screenshot
+    screenshot,
+    download,
   } from "../assets";
   
   export const navLinks = [
@@ -216,25 +217,25 @@ import {
   
   const projects = [
     {
-      name: "Customer Churn Analysis",
+      name: "Retail Store Analysis",
       description:
-        "A Notebook that critically evaluates and explains the data at hand using visualization. The data is then manipulated and evaluated to best show the reasons for customers leaving the service.",
+        "A notebook that models and conducts a Sensitivity analysis on a retail store's departments and sales data.",
       tags: [
         {
           name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "pandas",
+          name: "keras",
           color: "green-text-gradient",
         },
         {
-          name: "matplotlib",
+          name: "Neural Network",
           color: "pink-text-gradient",
         },
       ],
-      image: customer_churn,
-      source_code_link: "https://github.com/Bowman1410/Predictive-Customer-Churn-Analysis.git",
+      image: download,
+      source_code_link: "https://github.com/Bowman1410/-Retail_Store_Analysis",
     },
     {
       name: "ASL Alphabet Recognition",
