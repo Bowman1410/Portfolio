@@ -45,11 +45,13 @@ import carrent from "./carrent.png";
 import customer_churn from "./customer_churn.png";
 import asl from "./asl.png";
 import download from "./download.png";
+import rugby from "./rugby.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import screenshot from "./screenshot.png";
 
 export {
+  rugby,
   screenshot,
   download,
   asl, 

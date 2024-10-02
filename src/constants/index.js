@@ -42,6 +42,7 @@ import {
     githublogo,
     screenshot,
     download,
+    rugby,
   } from "../assets";
   
   export const navLinks = [
@@ -259,7 +260,7 @@ import {
       source_code_link: "https://github.com/Bowman1410/ASL_Alphabet_Recognition",
     },
     {
-      name: "Football CV Analysis",
+      name: "Rugby CV Analysis",
       description:
         "A complete Computer Vision project that analyzes a players speed, team and location as well as team possession.",
       tags: [
@@ -276,8 +277,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: screenshot,
-      source_code_link: "https://github.com/Bowman1410/football_analysis_final",
+      image: rugby,
+      source_code_link: "https://github.com/Bowman1410/Rugby_Player_Analysis",
     },
   ];
   
